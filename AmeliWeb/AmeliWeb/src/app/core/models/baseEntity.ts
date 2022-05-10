@@ -1,6 +1,6 @@
 export class BaseEntity {
 
-  private _idPoperties : Map<string, any> = new Map<string, any>();
+  private readonly _idPoperties : Map<string, any> = new Map<string, any>();
 
   public get id(): any[] {
     return [...this.idProperties.values()];
