@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AmeliAPI.UserManagement/1.0.0": {
+        "dependencies": {
+          "AmeliAPI.UserManagement.Model": "1.0.0"
+        },
+        "runtime": {
+          "AmeliAPI.UserManagement.dll": {}
+        }
+      },
+      "AmeliAPI.UserManagement.Model/1.0.0": {
+        "dependencies": {
+          "ModelBase": "1.0.0"
+        },
+        "runtime": {
+          "AmeliAPI.UserManagement.Model.dll": {}
+        }
+      },
+      "ModelBase/1.0.0": {
+        "runtime": {
+          "ModelBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AmeliAPI.UserManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AmeliAPI.UserManagement.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

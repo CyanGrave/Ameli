@@ -1,0 +1,12 @@
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.csproj.AssemblyReference.cache
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.AssemblyInfoInputs.cache
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.AssemblyInfo.cs
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.csproj.CoreCompileInputs.cache
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\bin\Debug\net6.0\ModelBase.deps.json
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\bin\Debug\net6.0\ModelBase.dll
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\bin\Debug\net6.0\ModelBase.pdb
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.dll
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\refint\ModelBase.dll
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ModelBase.pdb
+C:\Users\cyang\source\repos\AmeliAPI\ModelBase\obj\Debug\net6.0\ref\ModelBase.dll

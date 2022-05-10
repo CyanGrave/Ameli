@@ -1,0 +1,17 @@
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\ModelBase.dll
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\ModelBase.pdb
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\cyang\source\repos\AmeliAPI\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\cyang\source\repos\AmeliAPI\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
