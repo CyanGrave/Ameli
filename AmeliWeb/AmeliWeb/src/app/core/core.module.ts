@@ -1,1 +1,7 @@
-console.log("Hello World!")
+import { NgModule } from '@angular/core';
+
+@NgModule({
+  imports: [],
+  exports: [],
+})
+export class CoreModule { }

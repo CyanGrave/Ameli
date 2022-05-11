@@ -11,7 +11,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\app\core\decorators\" />
-    <Folder Include="src\app\shared\" />
     <Folder Include="src\app\userManagement\models\" />
     <Folder Include="src\app\userManagement\services\" />
   </ItemGroup>

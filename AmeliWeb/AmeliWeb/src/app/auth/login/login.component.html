@@ -1,0 +1,38 @@
+<div class="example-container mat-elevation-z8">
+  <div class="example-loading-shade"
+       *ngIf="isLoadingResults">
+    <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+  </div>
+  <mat-card class="example-card">
+    <form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
+      <h2>Login</h2>
+      <mat-form-field class="example-full-width">
+        <label>
+          <input matInput placeholder="Account" formControlName="account"
+                 [errorStateMatcher]="matcher">
+        </label>
+        <mat-error>
+          <span *ngIf="!loginForm.get('account').valid && loginForm.get('account').touched">Account name is missing</span>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <label>
+          <input type="password" matInput placeholder="Password" formControlName="password"
+                 [errorStateMatcher]="matcher">
+        </label>
+        <mat-error>
+          <span *ngIf="!loginForm.get('password').valid && loginForm.get('password').touched">No password entered</span>
+        </mat-error>
+      </mat-form-field>
+      <div class="button-row">
+        <button type="submit" [disabled]="!loginForm.valid" mat-flat-button color="primary"><mat-icon>login</mat-icon>Login</button>
+      </div>
+      <div class="button-row">
+        <h4>You can register below, if you don't have an account'</h4>
+      </div>
+      <div class="button-row">
+        <a mat-flat-button color="primary" [routerLink]="['/register']"><mat-icon>how_to_reg</mat-icon>Register</a>
+      </div>
+    </form>
+  </mat-card>
+</div>
