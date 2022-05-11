@@ -20,4 +20,4 @@ import { allComponents } from '.';
   declarations: [...allComponents],
   providers: []
 })
-export class BooksModule { }
+export class AuthModule { }

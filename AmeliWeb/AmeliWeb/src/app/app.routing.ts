@@ -8,9 +8,15 @@ export const AppRoutes: Routes = [
   { path: '**', redirectTo: '404' },
 
 
-  { path: '', redirectTo: 'users', pathMatch: 'full' },
   {
-  path: 'users', canActivate: [AuthRequired],
-    loadChildren: () => import('./users/users.module').then(m => m.UsersModule),
+    path: '',
+    redirectTo: 'users',
+    pathMatch: 'full',
+    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule),
+  },
+
+  {
+    path: 'users', canActivate: [AuthRequired],
+    loadChildren: () => import('./userManagement/user.module').then(m => m.UserModule)
   }
 ];

@@ -20,7 +20,7 @@
       <mat-form-field class="example-full-width">
         <label>
           <input type="password" matInput placeholder="Password" formControlName="password"
-                 [errorStateMatcher]="matcher">
+                 [errorStateMatcher]="matcher"/>
         </label>
         <mat-error>
           <span *ngIf="!registerForm.get('password').valid && registerForm.get('password').touched">Please enter a password</span>
@@ -30,7 +30,7 @@
       <mat-form-field class="example-full-width">
         <label>
           <input type="password" matInput placeholder="Repeat password" formControlName="passwordRepeat"
-                 [errorStateMatcher]="matcher">
+                 [errorStateMatcher]="matcher"/>
         </label>
         <mat-error>
           <span *ngIf="!registerForm.get('passwordRepeat').valid && registerForm.get('passwordRepeat').touched">Please repeat your password</span>
