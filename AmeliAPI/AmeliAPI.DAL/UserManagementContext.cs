@@ -19,7 +19,7 @@ namespace AmeliAPI.UserManagement.DAL
 
 
 
-        public virtual DbSet<User> CPE { get; set; }
+        public virtual DbSet<User> User { get; set; }
 
     }
 }

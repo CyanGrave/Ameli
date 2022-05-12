@@ -12,7 +12,7 @@ namespace AmeliAPI.UserManagement.DAL.SQLite.Migrations
                 name: "UserManagement");
 
             migrationBuilder.CreateTable(
-                name: "CPE",
+                name: "User",
                 schema: "UserManagement",
                 columns: table => new
                 {
@@ -30,7 +30,7 @@ namespace AmeliAPI.UserManagement.DAL.SQLite.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "CPE",
+                name: "User",
                 schema: "UserManagement");
         }
     }

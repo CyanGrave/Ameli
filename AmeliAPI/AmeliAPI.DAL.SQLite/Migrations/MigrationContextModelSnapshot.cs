@@ -36,7 +36,7 @@ namespace AmeliAPI.UserManagement.DAL.SQLite.Migrations
 
                     b.HasKey("UserID");
 
-                    b.ToTable("CPE", "UserManagement");
+                    b.ToTable("User", "UserManagement");
                 });
 #pragma warning restore 612, 618
         }
