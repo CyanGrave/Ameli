@@ -23,12 +23,12 @@ export class RegisterComponent implements OnInit {
     private formBuilder: FormBuilder
   ) { }
 
+  //alternate implementation to login.component. Is this equal? ToDo: verify
   ngOnInit(): void {
     this.registerForm = new FormGroup({
       username: new FormControl(this.username, [
         Validators.required,
-        Validators.minLength(4),
-        //forbiddenNameValidator(/bob/i) // <-- Here's how you pass in the custom validator.
+        Validators.minLength(4)
       ]),
       password: new FormControl(this.password, [
         Validators.required,
@@ -36,7 +36,7 @@ export class RegisterComponent implements OnInit {
       ]),
       passwordRepeat: new FormControl(this.passwordRepeat, [
         Validators.required,
-        Validators.pattern(this.password)
+        Validators.pattern(this.password) //<- don't know yet, if this works. Alternative: validation in markup?
       ]),
     });
   }
