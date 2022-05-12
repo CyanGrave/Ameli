@@ -7,7 +7,7 @@ using DAL;
 using Microsoft.EntityFrameworkCore;
 using AmeliAPI.UserManagement.Model.Entities;
 
-namespace AmeliAPI.UserManagement.DAL
+namespace AmeliAPI.UserManagement.DAL.SQLite
 {
     public class MigrationContext : UserManagementContext
     {
