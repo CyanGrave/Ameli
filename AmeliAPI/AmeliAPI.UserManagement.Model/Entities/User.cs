@@ -29,8 +29,5 @@ namespace AmeliAPI.UserManagement.Model.Entities
         [Required]
         public string? UserName { get; set; }
 
-
-        [Required]
-        public string? PasswordHash { get; set; }
     }
 }
