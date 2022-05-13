@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0mCd9rMkpDHf9Eb+PvhCQ1huQGg/MUGShtMCfq5QIuofvTkhWrg7wMIKNmepIKOa3AgHTpcZ6V57pwD+uXwVvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\LambdaSerializer\\LambdaSerializer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cyang\\.nuget\\packages\\system.linq.dynamic.core\\1.2.18\\system.linq.dynamic.core.1.2.18.nupkg.sha512"
+  ],
+  "logs": []
+}

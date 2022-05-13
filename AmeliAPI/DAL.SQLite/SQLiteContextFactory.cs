@@ -9,7 +9,7 @@ namespace DAL.SQLite
     {
         public override DAL.OptionsBuilder GetOptionsBuilder()
         {
-            return new OptionsBuilder();
+            return new SQLiteOptionsBuilder();
         }
     }
 }

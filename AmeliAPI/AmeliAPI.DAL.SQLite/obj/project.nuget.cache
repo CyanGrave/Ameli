@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n7cbrSmocgpZ+qh2ku8M36W0LUFhewj0oxD2eU5L3PRNCjGZU9CvDA1NYvgzhxLeWFsJp9jh24MkpnTtUbH8rg==",
+  "dgSpecHash": "SoqmzliO1erE/FfRe6QKYigR+NGFO8YE71t3a8EJtfpjQPjY3YbnbDsy7ILs5lxa8FKV8N5j4MSDkM2LbRIgUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\cyang\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\cyang\\.nuget\\packages\\system.linq.dynamic.core\\1.2.18\\system.linq.dynamic.core.1.2.18.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",

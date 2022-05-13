@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AmeliAPI.Model\AmeliAPI.UserManagement.Model.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmeliAPI.DAL\AmeliAPI.UserManagement.DAL.csproj" />
+    <ProjectReference Include="..\AmeliAPI.UserManagement.Model\AmeliAPI.UserManagement.Model.csproj" />
   </ItemGroup>
 
 </Project>

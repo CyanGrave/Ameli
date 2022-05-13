@@ -32,3 +32,7 @@ C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\obj
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\obj\Debug\net6.0\refint\AmeliAPI.UserManagement.dll
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\obj\Debug\net6.0\AmeliAPI.UserManagement.pdb
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\obj\Debug\net6.0\ref\AmeliAPI.UserManagement.dll
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\bin\Debug\net6.0\AmeliAPI.UserManagement.DAL.dll
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\bin\Debug\net6.0\DAL.dll
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\bin\Debug\net6.0\AmeliAPI.UserManagement.DAL.pdb
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement\bin\Debug\net6.0\DAL.pdb

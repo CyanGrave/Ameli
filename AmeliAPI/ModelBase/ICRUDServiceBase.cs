@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 
 namespace ModelBase
 {
-    public interface IServiceBase : IDisposable
-    {
 
-    }
 
     public interface ICRUDServiceBase<TEntity> : IServiceBase where TEntity : EntityBase
     {

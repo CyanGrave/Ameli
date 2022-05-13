@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\AmeliAPI.UserManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\AmeliAPI.UserManagement.Model.csproj"
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj"
               },
               "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\AmeliAPI.UserManagement.Model.csproj": {
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\AmeliAPI.UserManagement.Model.csproj",
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj",
         "projectName": "AmeliAPI.UserManagement.Model",
-        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\AmeliAPI.UserManagement.Model.csproj",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj",
         "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.Model\\obj\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,6 +232,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.18, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

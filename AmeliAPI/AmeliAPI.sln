@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI", "AmeliAPI\AmeliAPI.csproj", "{21C5D610-21DC-4FC5-A9AB-C50EB5BAFAA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI", "AmeliAPI\AmeliAPI.csproj", "{21C5D610-21DC-4FC5-A9AB-C50EB5BAFAA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBase", "ModelBase\ModelBase.csproj", "{4A17558F-A774-4597-8610-C61BCFAA3642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelBase", "ModelBase\ModelBase.csproj", "{4A17558F-A774-4597-8610-C61BCFAA3642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{013C5D79-D2D7-4575-936C-1E6B3798FDB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{013C5D79-D2D7-4575-936C-1E6B3798FDB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.SQLite", "DAL.SQLite\DAL.SQLite.csproj", "{A8194843-D461-4EF4-97D1-8CF3ADBD7EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.SQLite", "DAL.SQLite\DAL.SQLite.csproj", "{A8194843-D461-4EF4-97D1-8CF3ADBD7EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI.UserManagement.Model", "AmeliAPI.Model\AmeliAPI.UserManagement.Model.csproj", "{C10DF67C-EF54-491A-A88B-BA168D5A178A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI.UserManagement.DAL", "AmeliAPI.DAL\AmeliAPI.UserManagement.DAL.csproj", "{23020D3F-144E-4D15-9084-B503B5B5220F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI.UserManagement.DAL", "AmeliAPI.DAL\AmeliAPI.UserManagement.DAL.csproj", "{23020D3F-144E-4D15-9084-B503B5B5220F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI.UserManagement.DAL.SQLite", "AmeliAPI.DAL.SQLite\AmeliAPI.UserManagement.DAL.SQLite.csproj", "{D6426CAB-E16C-47E6-B236-1CC467AFAF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI.UserManagement.DAL.SQLite", "AmeliAPI.DAL.SQLite\AmeliAPI.UserManagement.DAL.SQLite.csproj", "{D6426CAB-E16C-47E6-B236-1CC467AFAF77}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI.UserManagement", "AmeliAPI.UserManagement\AmeliAPI.UserManagement.csproj", "{FED69524-FC15-48C7-B8DE-FA0FEE03290E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI.UserManagement", "AmeliAPI.UserManagement\AmeliAPI.UserManagement.csproj", "{FED69524-FC15-48C7-B8DE-FA0FEE03290E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagment", "UserManagment", "{59C4CE0F-F692-4B1B-9599-AC89E6B69840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmeliAPI.UserManagement.MigrationBuilder", "AmeliAPI.UserManagement.MigrationBuilder\AmeliAPI.UserManagement.MigrationBuilder.csproj", "{3C9CAB85-3249-4536-BD29-96470D35520D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI.UserManagement.MigrationBuilder", "AmeliAPI.UserManagement.MigrationBuilder\AmeliAPI.UserManagement.MigrationBuilder.csproj", "{3C9CAB85-3249-4536-BD29-96470D35520D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmeliAPI.UserManagement.Model", "AmeliAPI.UserManagement.Model\AmeliAPI.UserManagement.Model.csproj", "{00DEAFE9-007E-43C1-862C-F1501611F8D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,6 @@ Global
 		{A8194843-D461-4EF4-97D1-8CF3ADBD7EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8194843-D461-4EF4-97D1-8CF3ADBD7EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8194843-D461-4EF4-97D1-8CF3ADBD7EE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C10DF67C-EF54-491A-A88B-BA168D5A178A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C10DF67C-EF54-491A-A88B-BA168D5A178A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C10DF67C-EF54-491A-A88B-BA168D5A178A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C10DF67C-EF54-491A-A88B-BA168D5A178A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23020D3F-144E-4D15-9084-B503B5B5220F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23020D3F-144E-4D15-9084-B503B5B5220F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23020D3F-144E-4D15-9084-B503B5B5220F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,16 +61,20 @@ Global
 		{3C9CAB85-3249-4536-BD29-96470D35520D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9CAB85-3249-4536-BD29-96470D35520D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9CAB85-3249-4536-BD29-96470D35520D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DEAFE9-007E-43C1-862C-F1501611F8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DEAFE9-007E-43C1-862C-F1501611F8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DEAFE9-007E-43C1-862C-F1501611F8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DEAFE9-007E-43C1-862C-F1501611F8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C10DF67C-EF54-491A-A88B-BA168D5A178A} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
 		{23020D3F-144E-4D15-9084-B503B5B5220F} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
 		{D6426CAB-E16C-47E6-B236-1CC467AFAF77} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
 		{FED69524-FC15-48C7-B8DE-FA0FEE03290E} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
 		{3C9CAB85-3249-4536-BD29-96470D35520D} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
+		{00DEAFE9-007E-43C1-862C-F1501611F8D9} = {59C4CE0F-F692-4B1B-9599-AC89E6B69840}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BA46C80-EC45-45E3-A811-4D828C1295E7}

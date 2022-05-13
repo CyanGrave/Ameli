@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fXrm4jlUN06wQyw/QCrQS8O0aUt89f8oQeBSBP+6/qzZNfEmE8MI2rxuZkZux35TppSSjNJblyI+bsYUiIqJ6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cyang\\.nuget\\packages\\system.linq.dynamic.core\\1.2.18\\system.linq.dynamic.core.1.2.18.nupkg.sha512"
+  ],
+  "logs": []
+}

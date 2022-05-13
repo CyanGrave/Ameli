@@ -130,3 +130,4 @@ C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI\obj\Debug\net6.0\r
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI\obj\Debug\net6.0\AmeliAPI.pdb
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI\obj\Debug\net6.0\AmeliAPI.genruntimeconfig.cache
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI\obj\Debug\net6.0\ref\AmeliAPI.dll
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

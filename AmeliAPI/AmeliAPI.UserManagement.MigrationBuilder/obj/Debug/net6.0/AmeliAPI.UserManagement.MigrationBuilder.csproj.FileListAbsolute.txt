@@ -124,3 +124,4 @@ C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement.Mig
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.pdb
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.genruntimeconfig.cache
 C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement.MigrationBuilder\obj\Debug\net6.0\ref\AmeliAPI.UserManagement.MigrationBuilder.dll
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\AmeliAPI.UserManagement.MigrationBuilder\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

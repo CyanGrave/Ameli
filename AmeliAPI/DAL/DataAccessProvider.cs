@@ -6,37 +6,30 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAL
 {
-    public class DataAccessProvider<TContext> : IDataAccessProvider where TContext : Context
+    public class DataAccessProvider<TContext> : IDataAccessProvider where TContext : Context, new()
     {
-        private DbContextOptions _options;
+        private ContextFactory<TContext> _contextFactory;
 
-        public DataAccessProvider(DbContextOptions options)
+        public DataAccessProvider(ContextFactory<TContext> contextFactory)
         {
-            _options = options;
+            _contextFactory = contextFactory;
         }
 
         public IRepository GetRepository()
         {
-            return new Repository(CreateContext(_options));
+            return new Repository(_contextFactory.CreateDbContext());
         }
 
         public IRepository<TEntity> GetRepository<TEntity>() where TEntity : EntityBase
         {
-            return new Repository<TEntity>(CreateContext(_options));
+            return new Repository<TEntity>(_contextFactory.CreateDbContext());
         }
 
         public IUnitOfWork NewUnitOfWork()
         {
-            return new UnitOfWork(CreateContext(_options));
+            return new UnitOfWork(_contextFactory.CreateDbContext());
         }
 
-        private Context CreateContext(DbContextOptions options)
-        {
-            var context = Activator.CreateInstance(typeof(TContext), new object[] { options }) as Context;
-            if (context is null)
-                throw new Exception($"Context Creation Failed for type {typeof(TContext).Name}");
 
-            return context;
-        }
     }
 }

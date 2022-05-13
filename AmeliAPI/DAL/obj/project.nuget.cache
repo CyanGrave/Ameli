@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zUIl8Q5lceWlq6HAK4sPbzb95Ug1RvPVC6wX/McA8BVat9tzWcpUmPyS3lBUSTeL7gKZkZ+zKYB0WI76bXoPLg==",
+  "dgSpecHash": "Vv9214SaKcVuTBxnGrJiR9QbdDxp5OTPLtlIGMPjwWqMgK+OZTIv6O+zfMUpA2O69x1bOj/4Hvr9RAlFHJ2svA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\cyang\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\cyang\\.nuget\\packages\\system.linq.dynamic.core\\1.2.18\\system.linq.dynamic.core.1.2.18.nupkg.sha512",
     "C:\\Users\\cyang\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

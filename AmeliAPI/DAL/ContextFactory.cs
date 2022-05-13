@@ -9,7 +9,7 @@ namespace DAL
 
         public abstract OptionsBuilder GetOptionsBuilder();
 
-        public TContext CreateDbContext(string[] args)
+        public TContext CreateDbContext(string[]? args = null)
         {
             var optionsBuilder = GetOptionsBuilder();
 
