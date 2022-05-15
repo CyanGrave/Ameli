@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AmeliAPI.DAL\AmeliAPI.UserManagement.DAL.csproj" />
-    <ProjectReference Include="..\..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\..\DAL.SQLite\DAL.SQLite.csproj" />
+    <ProjectReference Include="..\AmeliAP.UserManagementI.DAL\AmeliAPI.UserManagement.DAL.csproj" />
   </ItemGroup>
 
 </Project>

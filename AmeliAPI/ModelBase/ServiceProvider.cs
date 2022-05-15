@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ModelBase
 {
-
+    /// <summary>
+    /// can be used as an alternative of .net core DI, if the later is not available
+    /// </summary>
     public class ServiceProvider
     {
         private Dictionary<Type, Tuple<Type,IDataAccessProvider>> _serviceRegister = new Dictionary<Type, Tuple<Type, IDataAccessProvider>>();
