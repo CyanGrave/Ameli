@@ -15,10 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AmeliAPI.DAL.SQLite\AmeliAPI.UserManagement.DAL.SQLite.csproj" />
     <ProjectReference Include="..\AmeliAPI.DAL\AmeliAPI.UserManagement.DAL.csproj" />
-    <ProjectReference Include="..\AmeliAPI.Model\AmeliAPI.UserManagement.Model.csproj" />
-    <ProjectReference Include="..\AmeliAPI.UserManagement\AmeliAPI.UserManagement.csproj" />
+    <ProjectReference Include="..\UserManagement\AmeliAPI.UserManagement.DAL.SQLite\AmeliAPI.UserManagement.DAL.SQLite.csproj" />
+    <ProjectReference Include="..\UserManagement\AmeliAPI.UserManagement.MigrationBuilder\AmeliAPI.UserManagement.MigrationBuilder.csproj" />
+    <ProjectReference Include="..\UserManagement\AmeliAPI.UserManagement.Model\AmeliAPI.UserManagement.Model.csproj" />
   </ItemGroup>
 
 </Project>

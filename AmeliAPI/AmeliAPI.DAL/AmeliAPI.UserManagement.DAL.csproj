@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AmeliAPI.UserManagement.Model\AmeliAPI.UserManagement.Model.csproj" />
     <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\UserManagement\AmeliAPI.UserManagement.Model\AmeliAPI.UserManagement.Model.csproj" />
   </ItemGroup>
 
 </Project>
