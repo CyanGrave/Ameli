@@ -12,7 +12,13 @@ namespace ModelBase
         [NotMapped]
         [ScaffoldColumn(false)]
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public virtual long EntityTypeID { get; } = 0;
+        public long EntityTypeID 
+        {
+            get
+            {
+                return GetSimpleHash(this.GetType().Name);
+            }
+        } 
 
 
 
@@ -57,7 +63,7 @@ namespace ModelBase
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public HashSet<string> Tags { get; set; } = new HashSet<string>();
 
-        protected long GetSimpleHash(string input)
+        private long GetSimpleHash(string input)
         {
             var bytes = Encoding.ASCII.GetBytes(input);
             Array.Resize(ref bytes, bytes.Length + (8 - bytes.Length % 8));

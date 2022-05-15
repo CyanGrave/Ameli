@@ -1193,8 +1193,8 @@
     },
     "AmeliAPI.UserManagement.DAL/1.0.0": {
       "type": "project",
-      "path": "../AmeliAP.UserManagementI.DAL/AmeliAPI.UserManagement.DAL.csproj",
-      "msbuildProject": "../AmeliAP.UserManagementI.DAL/AmeliAPI.UserManagement.DAL.csproj"
+      "path": "../AmeliAPI.UserManagement.DAL/AmeliAPI.UserManagement.DAL.csproj",
+      "msbuildProject": "../AmeliAPI.UserManagement.DAL/AmeliAPI.UserManagement.DAL.csproj"
     },
     "AmeliAPI.UserManagement.Model/1.0.0": {
       "type": "project",
@@ -1253,8 +1253,8 @@
             "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj": {
               "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj"
             },
-            "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
-              "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj"
+            "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
+              "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj"
             }
           }
         }

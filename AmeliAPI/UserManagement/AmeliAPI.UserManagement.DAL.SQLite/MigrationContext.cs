@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL;
-using Microsoft.EntityFrameworkCore;
-using AmeliAPI.UserManagement.Model.Entities;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace AmeliAPI.UserManagement.DAL.SQLite
 {

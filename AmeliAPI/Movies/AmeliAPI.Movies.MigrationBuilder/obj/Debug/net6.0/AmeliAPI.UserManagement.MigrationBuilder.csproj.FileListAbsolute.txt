@@ -1,0 +1,5 @@
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\Movies\AmeliAPI.Movies.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.csproj.AssemblyReference.cache
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\Movies\AmeliAPI.Movies.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\Movies\AmeliAPI.Movies.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.AssemblyInfoInputs.cache
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\Movies\AmeliAPI.Movies.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.AssemblyInfo.cs
+C:\Users\cyang\source\repos\CyanGrave\Ameli\AmeliAPI\Movies\AmeliAPI.Movies.MigrationBuilder\obj\Debug\net6.0\AmeliAPI.UserManagement.MigrationBuilder.csproj.CoreCompileInputs.cache

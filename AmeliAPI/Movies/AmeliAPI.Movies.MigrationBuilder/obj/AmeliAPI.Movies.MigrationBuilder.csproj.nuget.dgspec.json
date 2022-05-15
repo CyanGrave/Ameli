@@ -1,0 +1,458 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.MigrationBuilder\\AmeliAPI.Movies.MigrationBuilder.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj",
+        "projectName": "DAL.SQLite",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj",
+        "projectName": "ModelBase",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\AmeliAPI.Movies.DAL.SQLite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\AmeliAPI.Movies.DAL.SQLite.csproj",
+        "projectName": "AmeliAPI.Movies.DAL.SQLite",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\AmeliAPI.Movies.DAL.SQLite.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj"
+              },
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\AmeliAPI.Movies.DAL.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\AmeliAPI.Movies.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\AmeliAPI.Movies.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\AmeliAPI.Movies.DAL.csproj",
+        "projectName": "AmeliAPI.Movies.DAL",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\AmeliAPI.Movies.DAL.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\AmeliAPI.Movies.Model.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\AmeliAPI.Movies.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.MigrationBuilder\\AmeliAPI.Movies.MigrationBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.MigrationBuilder\\AmeliAPI.Movies.MigrationBuilder.csproj",
+        "projectName": "AmeliAPI.Movies.MigrationBuilder",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.MigrationBuilder\\AmeliAPI.Movies.MigrationBuilder.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.MigrationBuilder\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\AmeliAPI.Movies.DAL.SQLite.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.DAL.SQLite\\AmeliAPI.Movies.DAL.SQLite.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\AmeliAPI.Movies.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\AmeliAPI.Movies.Model.csproj",
+        "projectName": "AmeliAPI.Movies.Model",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\AmeliAPI.Movies.Model.csproj",
+        "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\Movies\\AmeliAPI.Movies.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\ModelBase\\ModelBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

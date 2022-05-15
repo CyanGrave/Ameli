@@ -1435,8 +1435,8 @@
     },
     "AmeliAPI.UserManagement.DAL/1.0.0": {
       "type": "project",
-      "path": "../UserManagement/AmeliAP.UserManagementI.DAL/AmeliAPI.UserManagement.DAL.csproj",
-      "msbuildProject": "../UserManagement/AmeliAP.UserManagementI.DAL/AmeliAPI.UserManagement.DAL.csproj"
+      "path": "../UserManagement/AmeliAPI.UserManagement.DAL/AmeliAPI.UserManagement.DAL.csproj",
+      "msbuildProject": "../UserManagement/AmeliAPI.UserManagement.DAL/AmeliAPI.UserManagement.DAL.csproj"
     },
     "AmeliAPI.UserManagement.DAL.SQLite/1.0.0": {
       "type": "project",

@@ -202,14 +202,14 @@
         }
       }
     },
-    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj",
-        "projectName": "AmeliAPI.UserManagement.DAL",
-        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj",
+        "projectName": "AmeliAPI.UserManagement.DAL.SQLite",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj",
         "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\obj\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,11 +226,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj"
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj"
               },
-              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj"
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj": {
+    "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj",
-        "projectName": "AmeliAPI.UserManagement.DAL.SQLite",
-        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\AmeliAPI.UserManagement.DAL.SQLite.csproj",
+        "projectUniqueName": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj",
+        "projectName": "AmeliAPI.UserManagement.DAL",
+        "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\AmeliAPI.UserManagement.DAL.csproj",
         "packagesPath": "C:\\Users\\cyang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL.SQLite\\obj\\",
+        "outputPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -287,11 +287,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj": {
-                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL.SQLite\\DAL.SQLite.csproj"
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj": {
-                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAP.UserManagementI.DAL\\AmeliAPI.UserManagement.DAL.csproj"
+              "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\cyang\\source\\repos\\CyanGrave\\Ameli\\AmeliAPI\\UserManagement\\AmeliAPI.UserManagement.Model\\AmeliAPI.UserManagement.Model.csproj"
               }
             }
           }
